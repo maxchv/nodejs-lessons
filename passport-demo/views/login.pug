@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    form(action="/login", method="post")
+        label Name
+            input(type="text", name="username")
+        label Pass
+            input(type="password", name="password")
+        input(type="submit") 
